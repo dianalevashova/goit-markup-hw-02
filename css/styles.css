@@ -56,6 +56,7 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    text-align: center;
 }
 .hero {
     background-color:#2E2F42;
@@ -76,17 +77,20 @@ ul {
 .team {
     background-color: #F4F4FD;
 }
+.team-item {
+    background-color: #FFFFFF;
+}
 .features-title,
 .team-name,
 .portfolio-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    text-align: center;
+    text-align: center;       
     text-transform: capitalize;
-}
+   }
 .features-text,
 .team-position,
 .portfolio-category {
@@ -94,9 +98,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
-    text-align: center;
-    text-transform: capitalize;
-}
+    }
 
 .team-title,
 .portfolio-title {
